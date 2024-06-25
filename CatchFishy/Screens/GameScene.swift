@@ -209,6 +209,7 @@ class GameScene: SKScene {
     }
     
     func endCountdown() {
+        GameScene.score = 0
         scoreLabel?.text = "Score: 0"
         gameState = .over
         stopBackgroundMusic()
