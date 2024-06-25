@@ -17,10 +17,5 @@ To get a local copy up and running follow these simple steps.
 
 ### References
 Images from Kenney: https://kenney.nl/assets/fish-pack 
-[![Youtube : Make your own 2D Shooter - SpriteKit Tutorial]([http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F23986704-youtube-logo-png-youtube-logo-transparent-png-youtube-icon-transparent-free-png&psig=AOvVaw3WOqGcYyy-SejpskM99iAM&ust=1719402867775000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIj86v_Y9oYDFQAAAAAdAAAAABAE))]](https://www.youtube.com/watch?v=c6T02QtQiKY))
 
-Youtube : Make your own 2D Shooter - SpriteKit Tutorial https://www.youtube.com/watch?v=c6T02QtQiKY
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fyoutube-logo-png--994169686473151006%2F&psig=AOvVaw3WOqGcYyy-SejpskM99iAM&ust=1719402867775000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIj86v_Y9oYDFQAAAAAdAAAAABAJ
-
-
-[![Youtube : Make your own 2D Shooter - SpriteKit Tutorial](https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fyoutube-logo-png--994169686473151006%2F&psig=AOvVaw3WOqGcYyy-SejpskM99iAM&ust=1719402867775000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIj86v_Y9oYDFQAAAAAdAAAAABAJ)](https://www.youtube.com/watch?v=c6T02QtQiKY)
+[![Youtube : Make your own 2D Shooter - SpriteKit Tutorial](https://i.pinimg.com/564x/98/ae/15/98ae159aa1bb8b4243fbe1f9e27d1b9f.jpg)](https://www.youtube.com/watch?v=c6T02QtQiKY)
