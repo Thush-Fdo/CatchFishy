@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F97B75FE2C2A168200437C51 /* catchFish1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F97B75FD2C2A168200437C51 /* catchFish1.wav */; };
+		F97B76002C2A169600437C51 /* catchFish2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F97B75FF2C2A169500437C51 /* catchFish2.wav */; };
+		F97B76022C2A16A100437C51 /* catchFish3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F97B76012C2A16A100437C51 /* catchFish3.wav */; };
+		F97B76062C2A170800437C51 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = F97B76052C2A170800437C51 /* gameOver.wav */; };
+		F97B76092C2AACE800437C51 /* PlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B76082C2AACE800437C51 /* PlayModel.swift */; };
+		F97B760E2C2ABD7700437C51 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B760D2C2ABD7700437C51 /* GameOverScene.swift */; };
 		F9C2B0E42C29AAA600339524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2B0E32C29AAA600339524 /* AppDelegate.swift */; };
 		F9C2B0E62C29AAA600339524 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0E52C29AAA600339524 /* GameScene.sks */; };
 		F9C2B0E82C29AAA600339524 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0E72C29AAA600339524 /* Actions.sks */; };
@@ -15,9 +21,16 @@
 		F9C2B0EF2C29AAA600339524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0ED2C29AAA600339524 /* Main.storyboard */; };
 		F9C2B0F12C29AAA900339524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0F02C29AAA900339524 /* Assets.xcassets */; };
 		F9C2B0F42C29AAA900339524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0F22C29AAA900339524 /* LaunchScreen.storyboard */; };
+		F9C2B0FB2C29E9D000339524 /* sunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9C2B0FA2C29E9D000339524 /* sunny.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F97B75FD2C2A168200437C51 /* catchFish1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catchFish1.wav; sourceTree = "<group>"; };
+		F97B75FF2C2A169500437C51 /* catchFish2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catchFish2.wav; sourceTree = "<group>"; };
+		F97B76012C2A16A100437C51 /* catchFish3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catchFish3.wav; sourceTree = "<group>"; };
+		F97B76052C2A170800437C51 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		F97B76082C2AACE800437C51 /* PlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayModel.swift; sourceTree = "<group>"; };
+		F97B760D2C2ABD7700437C51 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		F9C2B0E02C29AAA600339524 /* CatchFishy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchFishy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C2B0E32C29AAA600339524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9C2B0E52C29AAA600339524 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +40,7 @@
 		F9C2B0EE2C29AAA600339524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9C2B0F02C29AAA900339524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C2B0F32C29AAA900339524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9C2B0FA2C29E9D000339524 /* sunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunny.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F97B75FC2C2A165200437C51 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F97B75FF2C2A169500437C51 /* catchFish2.wav */,
+				F97B76012C2A16A100437C51 /* catchFish3.wav */,
+				F97B75FD2C2A168200437C51 /* catchFish1.wav */,
+				F97B76052C2A170800437C51 /* gameOver.wav */,
+				F9C2B0FA2C29E9D000339524 /* sunny.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F97B76072C2AACC000437C51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F97B76082C2AACE800437C51 /* PlayModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F97B760A2C2AB30900437C51 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2B0E52C29AAA600339524 /* GameScene.sks */,
+				F9C2B0E72C29AAA600339524 /* Actions.sks */,
+			);
+			path = GameScenes;
+			sourceTree = "<group>";
+		};
+		F97B760C2C2AB34800437C51 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2B0E92C29AAA600339524 /* GameScene.swift */,
+				F9C2B0EB2C29AAA600339524 /* GameViewController.swift */,
+				F97B760D2C2ABD7700437C51 /* GameOverScene.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		F9C2B0D72C29AAA600339524 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				F9C2B0E32C29AAA600339524 /* AppDelegate.swift */,
-				F9C2B0E52C29AAA600339524 /* GameScene.sks */,
-				F9C2B0E72C29AAA600339524 /* Actions.sks */,
-				F9C2B0E92C29AAA600339524 /* GameScene.swift */,
-				F9C2B0EB2C29AAA600339524 /* GameViewController.swift */,
 				F9C2B0ED2C29AAA600339524 /* Main.storyboard */,
-				F9C2B0F02C29AAA900339524 /* Assets.xcassets */,
 				F9C2B0F22C29AAA900339524 /* LaunchScreen.storyboard */,
+				F9C2B0F02C29AAA900339524 /* Assets.xcassets */,
+				F97B760C2C2AB34800437C51 /* Screens */,
+				F97B760A2C2AB30900437C51 /* GameScenes */,
+				F97B76072C2AACC000437C51 /* Models */,
+				F97B75FC2C2A165200437C51 /* Audio */,
 			);
 			path = CatchFishy;
 			sourceTree = "<group>";
@@ -129,11 +182,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97B76062C2A170800437C51 /* gameOver.wav in Resources */,
 				F9C2B0EF2C29AAA600339524 /* Main.storyboard in Resources */,
+				F97B76002C2A169600437C51 /* catchFish2.wav in Resources */,
 				F9C2B0E62C29AAA600339524 /* GameScene.sks in Resources */,
 				F9C2B0F12C29AAA900339524 /* Assets.xcassets in Resources */,
 				F9C2B0F42C29AAA900339524 /* LaunchScreen.storyboard in Resources */,
+				F9C2B0FB2C29E9D000339524 /* sunny.mp3 in Resources */,
+				F97B76022C2A16A100437C51 /* catchFish3.wav in Resources */,
 				F9C2B0E82C29AAA600339524 /* Actions.sks in Resources */,
+				F97B75FE2C2A168200437C51 /* catchFish1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97B760E2C2ABD7700437C51 /* GameOverScene.swift in Sources */,
 				F9C2B0EA2C29AAA600339524 /* GameScene.swift in Sources */,
+				F97B76092C2AACE800437C51 /* PlayModel.swift in Sources */,
 				F9C2B0EC2C29AAA600339524 /* GameViewController.swift in Sources */,
 				F9C2B0E42C29AAA600339524 /* AppDelegate.swift in Sources */,
 			);
@@ -304,8 +364,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +373,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.ontash.CatchFishy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,8 +396,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +405,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.ontash.CatchFishy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

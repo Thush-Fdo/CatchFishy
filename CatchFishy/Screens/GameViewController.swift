@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  CatchFishy
 //
-//  Created by Shermin Fernando on 24/06/2024.
+//  Created by Thush-Fdo on 24/06/2024.
 //
 
 import UIKit
