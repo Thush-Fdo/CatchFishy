@@ -143,6 +143,8 @@ class GameScene: SKScene {
         case .showingLogo:
             gameState = .playing
             
+            GameScene.score = 0
+            
             let fadeOut = SKAction.fadeOut(withDuration: 0.5)
             let remove = SKAction.removeFromParent()
             let wait = SKAction.wait(forDuration: 0.5)
@@ -209,7 +211,6 @@ class GameScene: SKScene {
     }
     
     func endCountdown() {
-        GameScene.score = 0
         scoreLabel?.text = "Score: 0"
         gameState = .over
         stopBackgroundMusic()
