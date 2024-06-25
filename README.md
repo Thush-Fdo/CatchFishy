@@ -18,4 +18,4 @@ To get a local copy up and running follow these simple steps.
 ### References
 Images from Kenney: https://kenney.nl/assets/fish-pack 
 
-[![Youtube : Make your own 2D Shooter - SpriteKit Tutorial](https://i.pinimg.com/564x/98/ae/15/98ae159aa1bb8b4243fbe1f9e27d1b9f.jpg)](https://www.youtube.com/watch?v=c6T02QtQiKY)
+[![Youtube : Make your own 2D Shooter - SpriteKit Tutorial](https://i.pinimg.com/564x/98/df/87/98df87df9dd9694b31b5ccc522320850.jpg)](https://www.youtube.com/watch?v=c6T02QtQiKY)
